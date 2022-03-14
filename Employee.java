@@ -1,25 +1,32 @@
-package credentialgenerator;
+package com.gl.employee;
 
 public class Employee {
-	String firstname,lastname;
-	Employee(String firstname,String lastname) {
-		this.firstname=firstname;
-		this.lastname=lastname;
-	}
-	public String getFirstname() {
-		return firstname;
-	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
-	}
-	public String getLastname() {
-		return lastname;
-	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
-	}
+	String firstName;
+	String lastName;
 	
-	
-	
-	
-}
+	public Employee(String firstName,String lastName){
+		this.firstName=firstName;
+		this.lastName=lastName;
+	}
+public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+
+	}
+
+
+
+
